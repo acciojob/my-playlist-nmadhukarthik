@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body
+{
+	background-color:  rgb(204, 204, 204);
+	padding: 15px;
+}
+
+h1, h2
+{
+	text-align: center;
+}
+
+ul
+{
+	list-style-type: none;
+	text-align: left;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#songsContainer
+{
+	background-color: white;
+	border: solid 2px blACK;
+	BORDER-RADIUS: 10PX;
+	padding: 5px;
+}
+
+.player_one
+{
+	width: 80%;
+	margin:auto;
+	background-color: white;
+	border: solid 2px blACK;
+	BORDER-RADIUS: 10PX;
+	padding: 5px;
+}
+
+video, audio
+{
+	width: 100%;
+}
