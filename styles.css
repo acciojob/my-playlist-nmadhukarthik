@@ -10,7 +10,7 @@ h1, h2
 	text-align: center;
 }
 
-ul
+li
 {
 	list-style-type: none;
 	text-align: left;
@@ -18,7 +18,7 @@ ul
 
 a
 {
-	text-decoration: none;
+	text-decoration-line: none;
 }
 
 #songsContainer
@@ -29,16 +29,37 @@ a
 	padding: 5px;
 }
 
-.player_one
+.container
 {
-	width: 80%;
+	width: 90%;
 	margin:auto;
-	background-color: white;
+	background-color:  rgb(255, 255, 255);
 	border: solid 2px blACK;
 	BORDER-RADIUS: 10PX;
-	padding: 5px;
 }
 
+.container>p
+{
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.player_one
+{
+
+	background-color:  rgb(255, 255, 255);
+	BORDER-RADIUS: 10PX;
+	padding: 15px;
+}
+
+
+.player_two
+{
+	background-color:  rgb(255, 255, 255);
+	BORDER-RADIUS: 10PX;
+	padding: 15px;
+}
 video, audio
 {
 	width: 100%;
